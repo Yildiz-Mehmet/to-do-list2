@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="image"></div>
+    <div class="big-container">
+      <div class="container1">
+        <h3>
+          Happy Days
+          <i id="kumDate" class="fa-sharp fa-solid fa-hourglass-start"></i>
+        </h3>
+        <div class="input">
+          <label for="addItem">
+            <i id="write" class="fa-solid fa-pen-to-square"></i>
+          </label>
+          <input
+            class="inputText"
+            id="addItem"
+            type="text"
+            placeholder="Add item..."
+          />
+          <i id="plus" class="fa-duotone fa-plus"></i>
+        </div>
+        <div class="input">
+          <label for="calender"></label>
+          <input class="inputText1" id="calender" type="date" />
+          <i id="plus1" class="fa-duotone fa-plus"></i>
+        </div>
+      </div>
+      <div class="container2">
+        <h1>Don't forget to...</h1>
+        <hr />
+        <div class="texts">
+          <p id="par"></p>
+        </div>
+        <hr />
+        <h2>
+          <span id="first">0</span> OUT OF <span id="second">0</span> TASKS
+          COMPLETED
+        </h2>
+      </div>
+      <button id="btn">New A Day</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
